@@ -1,0 +1,15 @@
+유니티 2D 게임 만들기 - 이동편
+
+초기 조건은 Awake에서
+FixedUpdate에서는 긴 입력을 다룰 때 하지만
+Update에서는 단발적인 입력을 다룰 때 사용
+
+Player -> Rigidbody2D 안에
+Linear Drag : 공기 저항?
+너무 올리면 점프 상황에도 속도가 감소되기 때문에 너무 올리지 X
+
+Freeze Rotation : 체크 하면 캐릭터가 넘어지는 것을 방지
+
+rigid.velocity.normalized -> 현재 속도의 단위 벡터를 구한다.
+
+2D 애니메이션 정리 : Make Transition 연결, HasExitTime 끄기, 겹구간 닫기, 매개변수 설정

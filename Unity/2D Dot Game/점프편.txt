@@ -1,0 +1,9 @@
+유니티 2D 게임 만들기 - 점프편
+
+Script에서는 이동할 때와 같이 Addforce를 이용해서 구현
+
+점프키(space)를 누르면 올라가는 속도는 빠르지만, 내려오는 속도는 느리다.
+중력을 늘려준다.
+중력 늘리는 방법 (2가지)
+1. project setting에서 gravity값을 올린다.
+2. player의 gravity scale 값을 올린다.
